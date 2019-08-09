@@ -1,0 +1,285 @@
+
+/* Deliverance Section
+--------------------------------*/
+#deliverance {
+    padding: 100px 0;
+    position: relative;
+    height: 600px;
+    background: #f3f0ee;
+    overflow: hidden;
+}
+
+#deliverance div {
+    background-color: transparent;
+}
+
+#deliverance .left-img, #deliverance .right-img {
+    position: absolute;
+    top: 0;
+    /* top : -216px; */
+    height: 600px;
+    width: 400px;
+    /* height: 816px; */
+    /* width: 50%; */
+    z-index: 0;
+}
+
+#deliverance .left-img {
+    left: 0;
+    background: url("/assets/imgs/clouds-left-side.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#deliverance .right-img {
+    right: 0;
+    background: url("/assets/imgs/clouds-right-side.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.deliverance-content {
+    text-align: center;
+    margin: auto 200px;
+    width: auto;
+}
+.deliverance-content img {
+    max-height: 75px;
+    margin-bottom: 15px;
+}
+.deliverance-content h1 {
+    font-size: 4em;
+    margin: 15px auto 50px auto;
+    color: #03363d;
+}
+
+.deliverance-content h3 {
+    color: #03363d;
+    font-size: 1.7em;
+    font-weight: normal;
+    line-height: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 1200px) {
+
+    .deliverance-content {
+        margin: auto 100px;
+    }
+
+}
+@media (max-width: 1080px) {
+
+    #deliverance {
+        padding: 70px 0;
+        height: auto;
+    }
+
+    .deliverance-content {
+        margin: auto 30px;
+    }
+
+    .deliverance-content h1 {
+        margin: 0 auto 50px auto;
+    }
+
+    #deliverance .left-img {
+        background-position: top right;
+    }
+
+    #deliverance .right-img {
+        background-position: top left;
+    }
+    #deliverance .left-img, #deliverance .right-img {
+        width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    #deliverance {
+        padding: 40px 0;
+    }
+    .deliverance-content {
+        margin: auto 40px;
+    }
+
+    .deliverance-content h1 {
+        font-size: 3em;
+        margin: 10px auto 25px auto;
+    }
+
+    .deliverance-content h3 {
+        font-size: 1.5em;
+    }
+
+
+}
+
+
+@media (max-width: 600px) {
+
+    #deliverance {
+        padding: 25px 0;
+    }
+
+    .deliverance-content {
+        margin: auto 20px;
+    }
+
+    .deliverance-content h1 {
+        font-size: 2.5em;
+        margin: 10px auto 25px auto;
+    }
+
+    .deliverance-content h3 {
+        font-size: 1.4em;
+    }
+
+
+}
+/* small talk Section
+--------------------------------*/
+#small-talk,#get-started {
+    background: url(/assets/imgs/locker-left.png) fixed center center;
+    background-size: cover;
+    padding: 80px 0;
+    height: 90vh;
+}
+#get-started {
+    background: url("/assets/imgs/suface-chatt-bg.gif") fixed center center;
+    background-size: cover;
+}
+
+
+@media (max-width: 1080px) {
+    #small-talk,#get-started {
+        background: #dddddd;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    #small-talk,#get-started {
+        background: #dddddd;
+        height: auto;
+    }
+}
+h1.section-title.padding {
+    padding: 30px;
+    color: rgb(20, 22, 61);
+    font-family: 'Lato', sans-serif;
+}
+p.st-text {
+    font-size: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+    padding: 0 30px;
+    color: #333333;
+    letter-spacing: 1px;
+}
+
+/* service pricing Section
+--------------------------------*/
+#service-pricing, #welcome-kit {
+    /* background-color:#a1d7d3; */
+    background: url(/assets/imgs/swirls-pattern.jpg) center center;
+    background-size: cover;
+    position: relative;
+    padding: 150px 0;
+    height: auto;
+}
+
+#service-pricing .right-img {
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    width: 40%;
+    height: 100%;
+    background: url(/assets/imgs/shopping-bags.jpg) center center no-repeat;
+    -webkit-background-size: 70%;
+    background-size: 70%;
+}
+#welcome-kit {
+    background: #a1d7d3;
+    padding: 50px 0;
+}
+#welcome-kit .right-img {
+    margin: 170px auto 0 auto;
+}
+#welcome-kit .right-img img {
+    max-width: 100%;
+}
+#welcome-kit .sp-text {
+    font-size: 1.2em;
+    letter-spacing: 0;
+    padding: 0;
+}
+@media (max-width: 768px) {
+    #service-pricing, #welcome-kit {
+        padding: 80px 0;
+        background: #a1d7d3;
+        height: auto;
+    }
+    #service-pricing .right-img, #welcome-kit .right-img {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    #service-pricing .right-img, #welcome-kit .right-img {
+        display: none;
+    }
+}
+
+p.sp-text {
+    font-size: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+    padding: 5px 0;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+/* how easy Section
+--------------------------------*/
+#how-easy {
+    background: url(/assets/imgs/triangle-header-pattern.png) top center repeat-x;
+    background-color: #f3f0ee;
+    position: relative;
+    padding-top: 170px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+.step {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: 100;
+    padding: 0 30px;
+    letter-spacing: 1px;
+}
+.step img {
+    height: 75px;
+    width: auto;
+}
+.step p, .step span{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    padding: 0 15px;
+}
+
+.step span {
+    display: block;
+    text-align: center;
+    color: #999999;
+    margin: 10px auto ;
+}
+.step p em {
+    font-weight: bold;
+    display: block;
+    margin: 1px 0;
+}
+.step img {
+    margin: 15px auto;
+}

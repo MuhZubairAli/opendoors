@@ -1,0 +1,210 @@
+#service-pricing {
+    background: url(/assets/imgs/triangle-header-pattern.png) bottom center repeat-x;
+    background-color: #A1D7D3;
+    text-align: center;
+    padding: 70px 0 160px 0;
+}
+
+h1.sp-title{
+    color: rgb(20, 22, 61);
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+p.sp-text {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+#fus{
+    padding: 50px 0;
+    background: rgb(243,240, 238);
+}
+
+.select-location {
+    margin: 0 0 20px 15px;
+}
+ul.serviceblock-pricing {
+    list-style: none;
+    margin: 80px auto 0 auto;
+    padding: 0;
+}
+
+ul.serviceblock-pricing li {
+    display: block;
+    border-bottom: 1px solid #c5c5c5;
+    font-size: 1.5em;
+    margin: 15px 40px;
+    padding: 5px 0;
+    color: #444444;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.serviceblock-accent {
+    color: #999999;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.serviceblock-cost {
+    float: right;
+}
+
+hr.separator {
+    border-top: 1px solid #c5c5c5;
+    /* margin: 50px auto; */
+}
+
+.serviceblock-info {
+    text-align: center;
+    padding: 15px;
+}
+
+.serviceblock-info img {
+    max-width: 90%;
+}
+
+.serviceblock-info p {
+    font-size: 1.3em;
+    margin: 20px;
+    color: rgb(20, 22, 61);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.serviceblock-info h2 {
+    font-family: 'Lato', sans-serif;
+    color: rgb(20, 22, 61);
+}
+
+#faq {
+    background: #ffffff;
+    padding: 60px 0;
+}
+
+h3.cat {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:  rgb(20, 22, 61);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1.faq-title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color:  rgb(20, 22, 61);
+    padding: 15px 0;
+}
+
+#faqAccordion {
+    font-size: 1.2em;
+    font-family: 'Fira Sans', sans-serif;
+}
+a.ing {
+    display: inline-block;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+
+#services {
+    padding: 60px 0;
+    background: #f3f0ee;
+}
+
+ul.serviceblock-pricing.service-list li {
+    border-color: #ececec;
+}
+
+select.form-control.service, input.form-control.service {
+    width: 200px;
+    max-width: 100%;
+}
+input.form-control.service {
+    float: right;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input.form-control.service:focus {
+    width: 250px;
+    max-width: 100%;
+}
+h2.service-list-title {
+    margin: 15px 0;
+    color: #03363d;
+}
+/*
+----- Responsive Styles
+*/
+
+@media (max-width: 990px) {
+
+    .serviceblock-info img {
+        display: none;
+    }
+    ul.serviceblock-pricing li {
+        font-size: 1.2em;
+    }
+    ul.serviceblock-pricing {
+        margin: 10px auto 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #mobile-nav-toggle {
+        display: none;
+    }
+    #service-pricing {
+        background: none;
+        background-color: #A1D7D3;
+        text-align: center;
+        padding: 30px 0;
+    }
+    ul.serviceblock-pricing li {
+        font-size: 1em;
+        margin: 15px;
+    }
+    ul.serviceblock-pricing {
+        margin: auto;
+    }
+
+    hr.separator {
+        display: none;
+    }
+
+    .serviceblock-info {
+        margin: 20px auto;
+    }
+    .serviceblock-info img {
+        display: none;
+    }
+    .select-location {
+        margin: 0 0 20px 15px;
+    }
+
+    h1.faq-title {
+        font-size: 2em;
+    }
+
+    #faqAccordion {
+        font-size: 1em;
+    }
+    a.ing {
+        font-size: 1.1em;
+        padding: 5px 0;
+    }
+    select.form-control.service, input.form-control.service {
+        width: 150px;
+        max-width: 100%;
+    }
+
+    input.form-control.service:focus {
+        width: 100%;
+    }
+    h2.service-list-title {
+        text-align: center;
+    }
+}
