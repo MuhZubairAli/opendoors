@@ -9,7 +9,7 @@ class home extends Main {
 
     function index(){
         $page_data = array(
-            'page_title' => 'Closet to Cleaners | Homepage'
+            'page_title' => 'Open Doors For All'
         );
 
         $this->plugin->add('izimodal');

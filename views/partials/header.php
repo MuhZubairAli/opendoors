@@ -4,20 +4,46 @@ Header Section
 ============================-->
 <header id="header">
     <div class="container">
-        <div id="logo">
-            <a href="#hero"><img src="<?php $this->url('header-logo.png','img',true) ?>" alt="" title="" /></img></a>
-        </div>
-
-        <nav id="nav-menu-container">
-            <ul class="nav-menu">
-                <li class="<?php $this->is_menu_active('home','menu-active') ?>"><a href="/">Home</a></li>
-                <li class="<?php $this->is_menu_active('services','menu-active') ?>"><a href="/services">Service & Pricing</a></li>
-                <li class="<?php $this->is_menu_active('contact','menu-active') ?>"><a href="/contact">Contact Us</a></li>
-                <li class="<?php $this->is_menu_active('apartment','menu-active') ?>"><a href="/apartment">Apartment Communities</a></li>
-                <li><a href="http://www.closettocleaners.com/sign-up">Sign Up</a></li>
+      <div id="logo">
+          <a href="#hero"><img src="<?php $this->url('logo.png','img',true) ?>" alt="" title="OpenDoors Logo" /></img></a>
+      </div>
+  
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-has-children"><a href="#">Open Data</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
             </ul>
-        </nav>
-        <!-- #nav-menu-container -->
+          </li>
+          <li class="menu-active"><a href="">Paid Data</a></li>
+          <li><a href="">Paid Help</a></li>
+          <li><a href="">Courses</a></li>
+          <li><a href="">Research</a></li>
+          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    <ul class="nav-menu user-btn">
+      <li class="menu-has-children"><a href="#"><i class="fa fa-user-circle-o"></i></a>
+        <ul>
+          <li><a href="#">Data Entry Portal</a></li>
+          <li><a href="#">Website Management</a></li>
+        </ul>
+      </li>
+    </ul>
+
+		<!-- #nav-menu-container -->
+    <div class="searchbox">
+      <form action="">
+        <input type="text" placeholder="Search" name="q" id="">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+
     </div>
 </header>
 <!-- #header -->

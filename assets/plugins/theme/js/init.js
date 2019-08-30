@@ -57,7 +57,7 @@ jQuery(document).ready(function( $ ) {
   }
   
   // Stick the header at top on scroll
-  $("#header").sticky({topSpacing:0, zIndex: '50'});
+//   $("#header").sticky({topSpacing:0, zIndex: '50'});
 
   // Smoth scroll on page hash links
   $('a[href*="#"]:not([href="#"])').on('click', function() {
@@ -106,17 +106,5 @@ jQuery(document).ready(function( $ ) {
       $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
       return false;
   });
-
-  $(document).ready(function(){
-      if(window.location.href.search(/[#]/g) > -1) {
-          console.log("Scrolling Document up by nav bar pixels");
-          var interval = setInterval(function(){
-            console.log("Scrolling Document up by nav bar pixels");
-            var y = $(window).scrollTop();
-            $(window).scrollTop(y-98);
-            clearInterval(interval);
-          },1000)
-      }
-  })
 
 });

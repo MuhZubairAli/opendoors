@@ -1,23 +1,14 @@
-<div id="video-modal">
-    <div class="contents"></div>
-</div>
 <!--==========================
 Hero Section
 ============================-->
 <section id="hero">
-    <div class="hero-container">
-        <div class="container no-space-md wow fadeInDown">
+    <div class="container">
 
-            <?php $this->load_partial('top-nav') ?>
-
-            <div class="wow fadeInDown col-md-12 margin-b-40">
-                <h1 class="heading">Take a Load Off</h1>
-                <h4 class="sub-heading">Enjoy your extra time while we conveniently cancel laundry day</h4>
-                <h4 class="play video-modal"><i class="fa fa-play-circle"></i> See how it works</h4>
-            </div>
-            <!-- <div class="wow fadeInLeft col-md-6 hero-img margin-b-40">
-                <img src="<?php $this->url('cleaning-bag.PNG', 'img', true) ?>" alt="">
-            </div> -->
+        <div class="contents col-md-6 col-lg-6 wow fadeInDown">
+            <h1 class="hero-heading">Digital reinvention at the US Open</h1>
+            <h4 class="hero-subheading">Over the next two weeks, Watson will analyze +500 million data points to serve up live stats, highlights and more</h4>
+            <h5><a href="">Learn more about the tech powering the tournament →</a></h5>
         </div>
+
     </div>
 </section>
