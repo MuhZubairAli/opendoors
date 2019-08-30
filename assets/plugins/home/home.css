@@ -1,0 +1,27 @@
+/* features Section
+--------------------------------*/
+#features {
+    padding: 40px 0;
+    position: relative;
+    min-height: 50vh;
+    background: #ffffff;
+}
+
+#features .item a.grouped-link {
+    color: #222222;
+    margin: 0;
+}
+#features .item em {
+    display: inline-block;
+    margin: 10px auto;
+}
+
+#features .item a.grouped-link p {
+    display: inline-block;
+    margin: 15px auto 30px auto;
+}
+
+#features .item a {
+    display: inline-block;
+    margin: 15px auto 10px auto;
+}

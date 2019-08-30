@@ -1,5 +1,8 @@
 /* font-family: 'Lato', sans-serif; */
 
+/*--------------------------------------------------------------
+# Important Fixures
+--------------------------------------------------------------*/
 .clearfix {
   clear: both;
 }
@@ -25,13 +28,24 @@ h4,h5,h6 {
 .container {
   min-width: 98% !important;
 }
+
+.btn {
+  margin: 25px auto;
+  padding: 10px 20px;
+  border-radius: 50px
+}
+
+.gradient-l2r-gray {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), transparent);
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #000000;
-  font-family: 'Fira Sans', sans-serif;
+  color: #222222;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em
 }
 
 a {
@@ -40,7 +54,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #03C4EB;
+  color: #75aaff ;
   outline: none;
   text-decoration: none;
 }
@@ -125,7 +139,7 @@ a:hover, a:active, a:focus {
 }
 
 #hero .contents h5 a:hover {
-  color: #000;
+  color: #75aaff;
 }
 
 @media (max-width: 768px) {
@@ -143,13 +157,6 @@ a:hover, a:active, a:focus {
       font-size: 1em;
   }
     
-  #hero .contents h5 a {
-    color: #ffffff;
-  }
-
-  #hero .contents h5 a:hover {
-    color: #03363d;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -213,6 +220,13 @@ a:hover, a:active, a:focus {
 .searchbox button:hover i {
   color: #0062ff;
 }
+
+
+@media (max-width: 480px) {
+  #header .container .searchbox {
+    display: none;
+  }
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -229,7 +243,7 @@ ul.nav-menu.user-btn>li>a {
   font-size: 22px;
   color: #03363d;
 }
-ul.nav-menu.user-btn>li>a:hover, ul.nav-menu.user-btn>li.menu-has-children.sfHover a{
+ul.nav-menu.user-btn>li>a:hover, ul.nav-menu.user-btn>li.menu-has-children.sfHover>a{
   color: #0062ff;
 }
 ul.nav-menu.user-btn li a.sf-with-ul:after{
@@ -482,21 +496,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Sections
 --------------------------------------------------------------*/
 h1.section-title {
-    font-size: 4em;
+    font-size: 1.7em;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
-    padding: 30px 0;
-    color: rgb(20, 22, 61);
+    padding: 10px 0;
+    margin: 10px auto;
+    color: #03363d ;
 }
 
 @media (max-width: 1080px) {
     h1.section-title {
-        font-size: 4em;
+        font-size: 1.4em;
     }
 }
 @media (max-width: 768px) {
     h1.section-title {
-        font-size: 3em;
+        font-size: 1.2em;
     }
 }
 
@@ -505,10 +520,13 @@ h1.section-title {
 --------------------------------------------------------------*/
 #footer {
   background: url(/assets/imgs/noise-gray.png) repeat;
-  padding: 90px 0 40px 0;
+  padding: 30px 0 10px 0;
   color: #fff;
 }
 
+#footer div.text-center.footer-img{
+  margin: 15px auto;
+}
 ul.footer-menu, ul.social-media-links {
     margin: 0;
     padding: 0;
@@ -547,6 +565,7 @@ hr.sm-separator{
 
 ul.social-media-links {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 ul.social-media-links li {
@@ -570,7 +589,7 @@ ul.social-media-links li a {
     text-align: center;
 }
 ul.social-media-links li a:hover {
-    background: #ffffff;
+    background: #cccccc;
 }
 
 ul.social-media-links li:hover a .instagram {  color: #c50081; }

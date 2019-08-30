@@ -6,11 +6,11 @@ jQuery(document).ready(function( $ ) {
   });
 
   // Hero rotating texts
-  $("#hero .rotating").Morphext({
-    animation: "fadeInUp",
-    separator: ",",
-    speed: 5000
-  });
+//   $("#hero .rotating").Morphext({
+//     animation: "fadeInUp",
+//     separator: ",",
+//     speed: 5000
+//   });
   
   // Initiate the wowjs
   new WOW().init();
