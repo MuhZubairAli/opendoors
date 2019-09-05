@@ -1,27 +1,58 @@
-/* features Section
+/* paid-data Section
 --------------------------------*/
-#features {
+#paid-data, #open-data {
     padding: 40px 0;
     position: relative;
     min-height: 50vh;
     background: #ffffff;
 }
 
-#features .item a.grouped-link {
+#open-data {
+    background: #f3f0ee;
+}
+
+#paid-data .section-title, #open-data .section-title {
+    margin: 0;
+    padding: 0;
+}
+
+#paid-data>.container>a, #open-data>.container>a{
+    display: inline-block;
+    margin: 0 0 20px 0;
+}
+#paid-data .item a.grouped-link, #open-data .item a.grouped-link {
     color: #222222;
     margin: 0;
 }
-#features .item em {
+#paid-data .item em, #open-data .item em {
     display: inline-block;
     margin: 10px auto;
 }
 
-#features .item a.grouped-link p {
+#paid-data .item a.grouped-link p, #open-data .item a.grouped-link p {
     display: inline-block;
     margin: 15px auto 30px auto;
+    text-align: justify;
 }
 
-#features .item a {
+#paid-data .item a, #open-data .item a  {
     display: inline-block;
     margin: 15px auto 10px auto;
+}
+.item {
+    transition: all 0.5s;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.item:hover {
+    /* padding-bottom: 20px; */
+    box-shadow: 2px 2px 3px 1px #bdbdbd;
+    background-color: whitesmoke;
+}
+
+/* courses section */
+#courses-data {
+    
 }
