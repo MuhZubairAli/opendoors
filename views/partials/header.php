@@ -7,27 +7,65 @@ Header Section
       <div class="row">
         <div class="col-lg-12">
 
-        
           <div id="logo">
-              <a href="#hero"><img src="<?php $this->url('logo.png','img',true) ?>" alt="" title="OpenDoors Logo" /></img></a>
+              <a href="/"><img src="<?php $this->url('logo.png','img',true) ?>" alt="" title="OpenDoors Logo" /></a>
           </div>
       
           <nav id="nav-menu-container">
             <ul class="nav-menu">
-              <li class="menu-has-children"><a href="#">Open Data</a>
+
+              <li class="menu-has-children <?php $this->is_menu_active('open_data','',false) ?>"><a href="/open-data">Open Data</a>
                 <ul>
-                  <li><a href="#">Companies</a></li>
-                  <li><a href="#">Directors</a></li>
-                  <li><a href="#">CEO Compensations</a></li>
-                  <li><a href="#">Yearly Data</a></li>
+                  <li <?php $this->is_menu_active('open_data','companies') ?>><a href="/open-data/companies">Companies</a></li>
+                  <li <?php $this->is_menu_active('open_data','reports') ?>><a href="/open-data/reports">Annual Reports</a></li>
                 </ul>
               </li>
-              <li class="menu-active"><a href="">Paid Data</a></li>
-              <li><a href="">Paid Help</a></li>
-              <li><a href="">Courses</a></li>
-              <li><a href="">Research</a></li>
               
-              <li><a href="#contact">Contact</a></li>
+              <li class="menu-has-children <?php $this->is_menu_active('paid_data','',false) ?>"><a href="/paid-data">Paid Data</a>
+                <ul>
+                  <li <?php $this->is_menu_active('paid_data','') ?>><a href="/paid-data">Financial Data</a></li>
+                  <li <?php $this->is_menu_active('paid_data','') ?>><a href="/paid-data">Share Prices</a></li>
+                  <li <?php $this->is_menu_active('paid_data','') ?>><a href="/paid-data">Ownership Structure</a></li>
+                  <li <?php $this->is_menu_active('paid_data','') ?>><a href="/paid-data">CEO Compensation</a></li>
+                  <li <?php $this->is_menu_active('paid_data','') ?>><a href="/paid-data">Directors Qualification</a></li>
+                  <li <?php $this->is_menu_active('paid_data','') ?>><a href="/paid-data">Earning Announcements</a></li>
+                  <li <?php $this->is_menu_active('paid_data','') ?>><a href="/paid-data">IPO</a></li>
+                </ul>
+              </li>
+
+              <li class="menu-has-children <?php $this->is_menu_active('paid_help','', false) ?>"><a href="/paid-help">Paid Help</a>
+                <ul>
+                  <li <?php $this->is_menu_active('paid_help','') ?>><a href="#">Empirical Methods</a></li>
+                  <li <?php $this->is_menu_active('paid_help','') ?>><a href="#">Completed Projects</a></li>
+                  <li <?php $this->is_menu_active('paid_help','') ?>><a href="#">Empirical Finance Pricing</a></li>
+                  <li <?php $this->is_menu_active('paid_help','') ?>><a href="#">Paid Data</a></li>
+                  <li <?php $this->is_menu_active('paid_help','') ?>><a href="#">Stata Program</a></li>
+                  <li <?php $this->is_menu_active('paid_help','') ?>><a href="#">FAQs</a></li>
+                </ul>
+              </li>
+
+              <li class="menu-has-children <?php $this->is_menu_active('courses','', false) ?>"><a href="/courses">Courses</a>
+                <ul>
+                  <li <?php $this->is_menu_active('courses','') ?>><a href="#">Portfolio Management</a></li>
+                  <li <?php $this->is_menu_active('courses','') ?>><a href="#">Financial Risk Management</a></li>
+                  <li <?php $this->is_menu_active('courses','') ?>><a href="#">Financial Management</a></li>
+                  <li <?php $this->is_menu_active('courses','') ?>><a href="#">Strategic Financial Management</a></li>
+                  <li <?php $this->is_menu_active('courses','') ?>><a href="#">Financial Markets and Institutions</a></li>
+                  <li <?php $this->is_menu_active('courses','') ?>><a href="#">Computer Applications for Finance</a></li>
+                  <li <?php $this->is_menu_active('courses','') ?>><a href="#">Seminar in Finance</a></li>
+                </ul>
+              </li>
+
+              <li class="menu-has-children <?php $this->is_menu_active('research','', false) ?>"><a href="/research">Research</a>
+                <ul>
+                  <li><a href="#">Research Topics</a></li>
+                  <li><a href="#">Research Topic Selection</a></li>
+                  <li><a href="#">Evaluation of MS Thesis</a></li>
+                  <li><a href="#">Journals in Finance</a></li>
+                </ul>
+              </li>
+              
+              <li <?php $this->is_menu_active('contact','index') ?>><a href="/contact">Contact</a></li>
             </ul>
           </nav>
 

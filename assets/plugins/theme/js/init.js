@@ -35,7 +35,7 @@ jQuery(document).ready(function( $ ) {
           $(this).nextAll('ul').eq(0).slideToggle();
           $(this).toggleClass("fa-chevron-up fa-chevron-down");
       });
-      
+
       $(document).on('click', '#mobile-nav-toggle', function(e){
           $('body').toggleClass('mobile-nav-active');
           $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');

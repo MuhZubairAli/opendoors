@@ -258,8 +258,16 @@ class Controller {
         return null;
     }
 
-    function is_menu_active($controller = "", $print_class = ""){
-        if(strcmp($controller,$_SERVER['route']['controller']) === 0)
-            echo $print_class;
+    function is_menu_active($controller = "", $action = "", $print_attr = true){
+        if(
+            (
+                strcmp($controller,$_SERVER['route']['controller']) === 0
+                && empty($action)
+            ) || 
+            (
+                strcmp($controller,$_SERVER['route']['controller']) === 0
+                && strcmp($action,$_SERVER['route']['action']) === 0
+            )
+        ) { echo ($print_attr) ? ' class="menu-active" ' : ' menu-active '; }
     }
 }

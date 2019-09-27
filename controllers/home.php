@@ -1,6 +1,7 @@
 <?php
 if(!class_exists('Main'))
     require CONTROLLERS_PATH.'Main.php';
+    
 class home extends Main {
     function __construct() {
         parent::__construct();
@@ -12,7 +13,7 @@ class home extends Main {
             'page_title' => 'Open Doors For All'
         );
 
-        $this->plugin->add('izimodal');
+        //$this->plugin->add('izimodal');
         $this->load_view('layout', $page_data);
     }
 

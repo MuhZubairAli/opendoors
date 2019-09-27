@@ -52,7 +52,7 @@ $keys = ['controller', 'action', 'query_string'];
 $index = 0;
 foreach($url_parts as $url_part){
 	if(strlen($url_part) > 0){
-		$_SERVER['route'][$keys[$index++]] = $url_part;
+		$_SERVER['route'][$keys[$index++]] = ($index < 3) ? str_replace([ '-','+' ],'_',$url_part) : $url_part;
 	}
 }
 
@@ -69,7 +69,7 @@ require(LIBS_PATH."Controller.php");
 if(file_exists(CONTROLLERS_PATH.$controller.'.php'))
 	require(CONTROLLERS_PATH.$controller.'.php');
 else 
-	die("Controller {$controller} not exists");
+	die("Controller '{$controller}' doesn't exist");
 
 $controllerObj = new $controller;
 if(method_exists($controllerObj,$action)) {
@@ -89,4 +89,4 @@ if(method_exists($controllerObj,$action)) {
     }
 }
 else 
-	die("Action {$action} not exists");
+	die("Action '{$action}' doesn't exist");

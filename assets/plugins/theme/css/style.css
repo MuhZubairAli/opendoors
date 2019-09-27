@@ -27,6 +27,7 @@ h4,h5,h6 {
 
 .container {
   min-width: 98% !important;
+  max-width: 1300px !important;
 }
 
 .btn {
@@ -52,13 +53,22 @@ a {
   color: #0062ff;
   transition: 0.5s;
 }
-
 a:hover, a:active, a:focus {
   color: #75aaff ;
   outline: none;
   text-decoration: none;
 }
 
+a.link::after {
+  content: '→';
+  display: inline;
+  font-size: 1.9rem;
+  transition: .3s;
+  margin-left: 5px;
+}
+a.link:hover::after {
+  margin-left: 10px;
+}
 /* Prelaoder */
 #preloader {
   position: fixed;
@@ -70,7 +80,15 @@ a:hover, a:active, a:focus {
   overflow: visible;
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
-
+h1.title {
+  margin: 0 auto 40px auto;
+}
+p.contents {
+  text-align: justify;
+}
+div.container.content {
+  padding: 70px 0;
+}
 /* Back to top button */
 .back-to-top {
   position: fixed;
@@ -88,6 +106,13 @@ a:hover, a:active, a:focus {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+
+  h1.title {
+    margin: 10px auto 15px auto;
+  }
+  div.container.content {
+    padding: 20px 0;
   }
 }
 
@@ -122,7 +147,7 @@ a:hover, a:active, a:focus {
 #hero .contents h1.hero-heading {
   font-weight: bold;
   margin: 30px auto;
-  font-size: 5em;
+  font-size: 4.8em;
   color: #fff;
 }
 
@@ -228,9 +253,10 @@ a:hover, a:active, a:focus {
   height: 100%;
 }
 
-.searchbox input:focus{
+.searchbox input:focus, .searchbox input:active{
   border: none;
   box-shadow: none;
+  outline: none;
 }
 .searchbox button {
   width: 20px;
@@ -352,7 +378,7 @@ ul.nav-menu.user-btn li a.sf-with-ul:after{
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
   color: #0062ff;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .nav-menu ul {
@@ -383,7 +409,9 @@ ul.nav-menu.user-btn li a.sf-with-ul:after{
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
   position: absolute;
-  right: 20px;
+  /* right: calc(1% + 15px); */
+  right: 1%;
+  margin-right: 15px;
   top: 12px;
   z-index: 999;
   border: 0;
@@ -468,11 +496,27 @@ ul.nav-menu.user-btn li a.sf-with-ul:after{
 #mobile-nav ul li.menu-has-children:hover>a {
   border-bottom: 3px solid #0062ff;
 }
-#mobile-nav ul li a:hover, #mobile-nav ul li.menu-active a {
+
+#mobile-nav ul li a:hover, 
+#mobile-nav ul li.menu-active a, 
+#mobile-nav ul li.menu-has-children.menu-active ul li a:hover, 
+#mobile-nav ul li.menu-has-children.menu-active ul li.menu-active a{
   color: #0062ff;
   border-bottom: 3px solid #0062ff;
 }
 
+#mobile-nav ul li.menu-has-children.menu-active i {
+  color: #0062ff;
+}
+
+#mobile-nav ul li.menu-has-children.menu-active ul li a {
+  color: #000000;
+  border-color: #fff;
+}
+
+#mobile-nav ul li.menu-has-children.menu-active ul {
+  display: block;
+}
 
 #mobile-nav ul li li {
   padding-left: 20px;
@@ -508,9 +552,13 @@ ul.nav-menu.user-btn li a.sf-with-ul:after{
   display: none;
 }
 
+body.mobile-nav-active {
+  overflow: hidden;
+}
 
 body.mobile-nav-active #mobile-nav {
   right: 0;
+  overflow-y: scroll;
 }
 
 body.mobile-nav-active #mobile-nav-toggle {

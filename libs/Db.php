@@ -4,7 +4,7 @@ class Db {
     protected $con;
 
     function __construct(){
-        $this->con = new mysqli("localhost","","");
+        $this->con = new mysqli("localhost","root","");
         if ($this->con->connect_errno) {
             printf("DB Connection Failed: %s\n", $this->con->connect_error);
             exit();
