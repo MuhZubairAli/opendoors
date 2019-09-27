@@ -85,9 +85,11 @@ h1.title {
 }
 p.contents {
   text-align: justify;
+  margin-bottom: 20px;
 }
-div.container.content {
-  padding: 70px 0;
+div.container.contents {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 /* Back to top button */
 .back-to-top {

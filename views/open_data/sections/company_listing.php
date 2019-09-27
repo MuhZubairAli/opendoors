@@ -1,4 +1,4 @@
-<div class="container content">
+<div class="container contents">
     <div class="row">
         <div class="col-md-3">
             <h1>Sidebar</h1>
