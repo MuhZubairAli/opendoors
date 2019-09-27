@@ -8,13 +8,13 @@
 
 <div class="panel-group" id="faqAccordion">
     <div class="panel panel-default ">
-        <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">
+        <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">
             <h4 class="panel-title">
                 <a href="#" class="ing">Financial Statements Data (Non-Financial Firms) (1-FSDN)</a>
             </h4>
 
         </div>
-        <div id="question0" class="panel-collapse collapse" style="height: 0px;">
+        <div id="question0" class="panel-collapse collapse">
             <div class="panel-body">
             <ul>
             <li>Financial statement data from 1996 till 2017 for all non-financial firms.</li>
@@ -28,13 +28,13 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
+        <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
             <h4 class="panel-title">
                 <a href="#" class="ing">Financial Statements Data (Financial Firms) (2-FSDF)</a>
             </h4>
 
         </div>
-        <div id="question1" class="panel-collapse collapse" style="height: 0px;">
+        <div id="question1" class="panel-collapse collapse">
             <div class="panel-body">
                 <ul>
 					<li>Financial statement data from 2006 till 2017 for all financial firms including banks and non-banks.</li>
@@ -49,13 +49,13 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
+        <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
             <h4 class="panel-title">
                 <a href="#" class="ing">Share Prices Data (3-SPD)</a>
             </h4>
 
         </div>
-        <div id="question2" class="panel-collapse collapse" style="height: 0px;">
+        <div id="question2" class="panel-collapse collapse">
             <div class="panel-body">
                 <ul>
 					<li>Daily share prices data from 1999 till 2018 for all financial and non-financial firms</li>
@@ -71,13 +71,13 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">
+        <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">
             <h4 class="panel-title">
                 <a href="#" class="ing">Industry Level Financial and Share Prices Data (4-ILF)</a>
             </h4>
 
         </div>
-        <div id="question3" class="panel-collapse collapse" style="height: 0px;">
+        <div id="question3" class="panel-collapse collapse">
             <div class="panel-body">
                 <ul>
 					<li>Both financial and share prices data at the industry level can be arranged</li>
@@ -90,13 +90,13 @@
     </div>
 
     <div class="panel panel-default ">
-        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question4">
+        <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question4">
             <h4 class="panel-title">
                 <a href="#" class="ing">Initial Public Offering (IPO) Data of PSX Listed Firms (5-IPOa)</a>
             </h4>
 
         </div>
-        <div id="question4" class="panel-collapse collapse" style="height: 0px;">
+        <div id="question4" class="panel-collapse collapse">
             <div class="panel-body">
                 <ul>
 					<li>Initial Public Offering data of firms listed at the Pakistan Stock Exchange available from 1982-2018</li>
@@ -119,13 +119,13 @@
     </div>
 
     <div class="panel panel-default ">
-        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question5">
+        <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question5">
             <h4 class="panel-title">
                 <a href="#" class="ing">Ownership Structure Data (6-OSD)</a>
             </h4>
 
         </div>
-        <div id="question5" class="panel-collapse collapse" style="height: 0px;">
+        <div id="question5" class="panel-collapse collapse">
             <div class="panel-body">
                 <p class="contents">We have comprehensive coverage of ownership structure and corporate governance data of Pakistan Stock Exchange (PSX, formally known as the Karachi Stock Exchange KSE) listed firms on the following variables. The data is available from 2003 until 2017.</p>
 				<ul>
@@ -165,13 +165,13 @@
     </div>
     
     <div class="panel panel-default ">
-        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question7">
+        <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question7">
             <h4 class="panel-title">
                 <a href="#" class="ing">Dividends and Earnings Announcements (8-DEA)</a>
             </h4>
 
         </div>
-        <div id="question7" class="panel-collapse collapse" style="height: 0px;">
+        <div id="question7" class="panel-collapse collapse">
             <div class="panel-body">
                 <ul>
 					<li>Dividend and earnings announcements history from 2004 to 2018</li>
@@ -189,13 +189,13 @@
         </div>
     </div>
     <div class="panel panel-default ">
-        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question8">
+        <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question8">
             <h4 class="panel-title">
                 <a href="#" class="ing">Mutual Funds Data </a>
             </h4>
 
         </div>
-        <div id="question8" class="panel-collapse collapse" style="height: 0px;">
+        <div id="question8" class="panel-collapse collapse">
             <div class="panel-body">
                 <ul>
 					<li>Daily mutual funds data returns data from 2004 to 2018</li>

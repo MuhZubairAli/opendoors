@@ -4,7 +4,7 @@ class Db {
     protected $con;
 
     function __construct(){
-        $this->con = new mysqli("localhost","root","");
+        $this->con = new mysqli("localhost","root","","attaullah");
         if ($this->con->connect_errno) {
             printf("DB Connection Failed: %s\n", $this->con->connect_error);
             exit();
@@ -29,8 +29,12 @@ class Db {
     }
 
     function select($table,$params=null){
+        //if $table is array then $params is treated as boolean for option to return fetch handle instead of data;
+        $returnHandle = false;
         if(is_array($table)) {
             $params = $table;
+            $returnHandle = ($params) ? true : false;
+
             if(!isset($params['table'])){
                 return $this->response([
                         "status" => 0,
@@ -73,7 +77,12 @@ class Db {
         if(isset($whereClause))
             $sql .= " WHERE {$whereClause}";
         if($query = $this->con->query($sql)){
-            if($query->num_rows===1) {
+            if($query->num_rows && $returnHandle){
+                return $this->response([
+                    "status" => 1,
+                    "result" => $query ]
+                );
+            }else if($query->num_rows===1) {
                 return $this->response([
                         "status" => 1,
                         "result" => $query->fetch_assoc() ]

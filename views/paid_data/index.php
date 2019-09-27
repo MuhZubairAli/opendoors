@@ -6,18 +6,9 @@
         'hero_action_link_href' => '/paid-data',
         'hero_action_link_title' => 'Learn more about paid data'
     ));
-
+    
     $this->load_partial('contents_with_sb',array(
-        'sb_menu' => array(
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
-        ),
+        'sb_menu' => 'paid_data',
         'contents_section' => 'paid-data-intro'
     ))
 ?>
