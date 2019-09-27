@@ -4,7 +4,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Corporate and Financial data services" name="keywords">
     <meta content="Source of Open and Paid data services. Online courses and Data services." name="description">
-
+    <meta property="fb:app_id" content="529852907793033" />
+    
     <link href="<?php $this->url('favicon.png','img',true) ?>" rel="shortcut icon">
 
     <!-- Google Fonts -->

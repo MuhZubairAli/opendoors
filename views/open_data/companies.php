@@ -9,12 +9,12 @@
     
     $this->load_partial('contents_with_sb',array(
         'contents_section' => 'company_listing',
-        'sb_menu' => array(
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
-            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
+        'sb_menu_group' => array(
+            (object)['link_href'=>'#','link_title'=>'Link to other resources', 'link_icon'=>'fa-link'],
+            (object)['link_href'=>'#','link_title'=>'Link to other resources', 'link_icon'=>'fa-link'],
+            (object)['link_href'=>'#','link_title'=>'Link to other resources', 'link_icon'=>'fa-link'],
+            (object)['link_href'=>'#','link_title'=>'Link to other resources', 'link_icon'=>'fa-link'],
+            (object)['link_href'=>'#','link_title'=>'Link to other resources', 'link_icon'=>'fa-link'],
+            (object)['link_href'=>'#','link_title'=>'Link to other resources', 'link_icon'=>'fa-link'],
         )
     ));

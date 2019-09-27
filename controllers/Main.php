@@ -30,5 +30,7 @@ class Main extends Controller {
                 'js'  => [ 'init' ]
             ]
         ]);
+        
+        $this->load_lib('db');
     }
 }

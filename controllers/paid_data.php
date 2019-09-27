@@ -14,7 +14,6 @@ class paid_data extends Main {
         $page_data = array(
             'page_title' => 'Open Doors For All'
         );
-        $this->load_lib('db');
         $this->load_view('layout', $page_data);
     }
 }

@@ -2,6 +2,8 @@
 <html lang="en">
 <?php $this->load_partial('head') ?>
 <body>
+<div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v4.0&appId=529852907793033&autoLogAppEvents=1"></script>
     <div id="preloader"></div>
     
     <?php
