@@ -5,7 +5,7 @@
     <meta content="Corporate and Financial data services" name="keywords">
     <meta content="Source of Open and Paid data services. Online courses and Data services." name="description">
     <meta property="fb:app_id" content="529852907793033" />
-    
+
     <link href="<?php $this->url('favicon.png','img',true) ?>" rel="shortcut icon">
 
     <!-- Google Fonts -->
@@ -13,4 +13,5 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <?php $this->plugin->loadCSS(); ?>
 
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v4.0&appId=529852907793033&autoLogAppEvents=1"></script>
 </head>

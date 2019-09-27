@@ -6,6 +6,7 @@
 
         <div class="col-sm-8 col-md-9">
             <?php $this->load_section($contents_section) ?>
+            <div class="fb-comments" data-href="http://opendoors.pk" data-width="100%" data-numposts="5"></div>
         </div>
     </div>
 </div>

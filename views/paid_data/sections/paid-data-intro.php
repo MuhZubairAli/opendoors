@@ -226,5 +226,3 @@ $(document).ready(function(){
 })";
 $this->plugin->addCustomJS($cjs);
 ?>
-
-<div class="fb-comments" data-href="http://od/paid-data" data-width="100%" data-numposts="5"></div>
