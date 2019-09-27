@@ -61,7 +61,7 @@
             
                 <div class="col-sm-6 col-md-3 col-lg-2 col-lg-push-2">
                     <ul class="footer-menu">
-                        <li><a href="">Open Data</a></li>
+                        <li><a href="<?= $this->url('open-data') ?>">Open Data</a></li>
                         <li><a href="">Companies Data</a></li>
                         <li><a href="">Directors Data</a></li>
                         <li><a href="">Yearly Data</a></li>
@@ -74,7 +74,7 @@
                 <div class="col-md-12">
                     <hr class="sm-separator">
                     <div class="text-center">
-                        <h6 style="color:#ddd;font-weight:normal">© 2019 OpenDoors.pk, except where otherwise noted. All Rights Reserved</h6>
+                        <h6 style="color:#ddd;font-weight:normal">© 2019 OpenDoors.pk. All Rights Reserved, except where otherwise noted.</h6>
                     </div>
                 </div>
 

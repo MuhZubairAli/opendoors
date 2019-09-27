@@ -192,7 +192,7 @@ class Controller {
         return false;
     }
 
-    function url($src='', $type = '', $print=false){
+    function url($src='', $type = ''){
         switch ($type){
             case 'img':
                 $url = IMGS_URL.$src;
@@ -200,11 +200,7 @@ class Controller {
             default:
                 $url = BASEURL.$src;
         }
-
-        if($print)
-            echo $url;
-        else
-            return $url;
+        return $url;
     }
     
     function ulify($logs = array(), $classNames = ''){
@@ -258,16 +254,9 @@ class Controller {
         return null;
     }
 
-    function is_menu_active($controller = "", $action = "", $print_attr = true){
-        if(
-            (
-                strcmp($controller,$_SERVER['route']['controller']) === 0
-                && empty($action)
-            ) || 
-            (
-                strcmp($controller,$_SERVER['route']['controller']) === 0
-                && strcmp($action,$_SERVER['route']['action']) === 0
-            )
-        ) { echo ($print_attr) ? ' class="menu-active" ' : ' menu-active '; }
+    function is_menu_active($href = "", $only_class = false, $class="menu-active"){
+        if( stristr( $_SERVER['route']['href'],trim($href,'/')) ) {
+            return ($only_class) ? " {$class} ": " class='{$class}'" ;
+        }
     }
 }

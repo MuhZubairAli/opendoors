@@ -48,6 +48,7 @@ switch (ENVIRONMENT)
 $url_map = trim(key($_GET),'/');
 $url_parts = explode('/',$url_map,3);
 $_SERVER['route'] = array();
+$_SERVER['route']['href'] = $url_map;
 $keys = ['controller', 'action', 'query_string'];
 $index = 0;
 foreach($url_parts as $url_part){

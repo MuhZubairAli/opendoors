@@ -81,15 +81,18 @@ a.link:hover::after {
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
 h1.title {
-  margin: 0 auto 40px auto;
+  margin: 35px auto;
 }
 p.contents {
   text-align: justify;
   margin-bottom: 20px;
 }
+.margin-top-none {
+  margin-top: 0;
+}
 div.container.contents {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 /* Back to top button */
 .back-to-top {
@@ -105,19 +108,6 @@ div.container.contents {
   transition: background 0.5s;
 }
 
-@media (max-width: 768px) {
-  .back-to-top {
-    bottom: 15px;
-  }
-
-  h1.title {
-    margin: 10px auto 15px auto;
-  }
-  div.container.content {
-    padding: 20px 0;
-  }
-}
-
 .back-to-top:focus {
   background: rgba(0, 0, 0, 0.2);
   color: #fff;
@@ -129,6 +119,81 @@ div.container.contents {
   color: #fff;
 }
 
+/*----------------- Sidebar ------------*/
+
+ul#sidebar-left {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#sidebar-left li{
+  display: block;
+  position: relative;
+  padding: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+}
+
+ul#sidebar-left li a i{
+  display: inline-block;
+  background: #eeeeee;
+  color: #333333;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 5px;
+  margin-right: 10px;
+  transition: .3s;
+}
+
+ul#sidebar-left li::after{
+  display: inline-block;
+  height: 90%;
+  width: 0;
+  background: linear-gradient(90deg, #dddddd, transparent);
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 5%;
+  transition: .3s;
+  z-index: -10;
+}
+
+ul#sidebar-left li:hover::after, ul#sidebar-left li.active::after{
+  width: 100%;
+}
+
+ul#sidebar-left li:hover a i, ul#sidebar-left li.active a i{
+  background: #03363d;
+  color: #fff;
+  margin-right: 15px;
+}
+
+ul#sidebar-left li a{
+  color: #333333;
+  font-size: 1.1em;
+}
+ul#sidebar-left li:hover a, ul#sidebar-left li.active a{
+  color: #03363d;
+}
+
+/*--------------------------------------*/
+
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+
+  h1.title {
+    margin: 10px auto 15px auto;
+  }
+  div.container.content {
+    padding: 20px 0;
+  }
+
+}
 
 /*--------------------------------------------------------------
 # Welcome

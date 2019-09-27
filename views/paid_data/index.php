@@ -7,16 +7,17 @@
         'hero_action_link_title' => 'Learn more about paid data'
     ));
 
+    $this->load_partial('contents_with_sb',array(
+        'sb_menu' => array(
+            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
+            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
+            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
+            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
+            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
+            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
+            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
+            (object)['href'=>'#','title'=>'Link to other resources', 'icon'=>'fa-link'],
+        ),
+        'contents_section' => 'paid-data-intro'
+    ))
 ?>
-
-<div class="container contents">
-    <div class="row">
-        <div class="col-md-3">
-            <h1 class="title">Sidebar</h1>
-        </div>
-
-        <div class="col-md-9">
-            <?php $this->load_section('paid-data-intro') ?>
-        </div>
-    </div>
-</div>

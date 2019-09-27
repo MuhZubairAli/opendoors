@@ -1,124 +1,113 @@
-<div class="container contents">
-    <div class="row">
-        <div class="col-md-3">
-            <h1>Sidebar</h1>
-        </div>
-        <div class="col-md-9">
-            <h1 class="title">List of Companies</h1>
-            <p class="contents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <p class="contents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <p class="contents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+<h1 class="title">List of Companies</h1>
+<p class="contents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+<p class="contents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+<p class="contents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Symbol</th>
-                        <th>Name</th>
-                        <th>Industry</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>NTS</td>
-                        <td>Netsol</td>
-                        <td>Software Development</td>
-                        <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>1</td>
-                        <td>NTS</td>
-                        <td>Netsol</td>
-                        <td>Software Development</td>
-                        <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>1</td>
-                        <td>NTS</td>
-                        <td>Netsol</td>
-                        <td>Software Development</td>
-                        <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>1</td>
-                        <td>NTS</td>
-                        <td>Netsol</td>
-                        <td>Software Development</td>
-                        <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>1</td>
-                        <td>NTS</td>
-                        <td>Netsol</td>
-                        <td>Software Development</td>
-                        <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>1</td>
-                        <td>NTS</td>
-                        <td>Netsol</td>
-                        <td>Software Development</td>
-                        <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>1</td>
-                        <td>NTS</td>
-                        <td>Netsol</td>
-                        <td>Software Development</td>
-                        <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>1</td>
-                        <td>NTS</td>
-                        <td>Netsol</td>
-                        <td>Software Development</td>
-                        <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>1</td>
-                        <td>NTS</td>
-                        <td>Netsol</td>
-                        <td>Software Development</td>
-                        <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>1</td>
-                        <td>NTS</td>
-                        <td>Netsol</td>
-                        <td>Software Development</td>
-                        <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>1</td>
-                        <td>NTS</td>
-                        <td>Netsol</td>
-                        <td>Software Development</td>
-                        <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>1</td>
-                        <td>NTS</td>
-                        <td>Netsol</td>
-                        <td>Software Development</td>
-                        <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                    </tr>
-                </tbody>
-            </table>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Industry</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>NTS</td>
+            <td>Netsol</td>
+            <td>Software Development</td>
+            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+        </tr>
         
+        <tr>
+            <td>1</td>
+            <td>NTS</td>
+            <td>Netsol</td>
+            <td>Software Development</td>
+            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+        </tr>
         
-        </div>
-    </div>
-</div>
+        <tr>
+            <td>1</td>
+            <td>NTS</td>
+            <td>Netsol</td>
+            <td>Software Development</td>
+            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>NTS</td>
+            <td>Netsol</td>
+            <td>Software Development</td>
+            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>NTS</td>
+            <td>Netsol</td>
+            <td>Software Development</td>
+            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>NTS</td>
+            <td>Netsol</td>
+            <td>Software Development</td>
+            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>NTS</td>
+            <td>Netsol</td>
+            <td>Software Development</td>
+            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>NTS</td>
+            <td>Netsol</td>
+            <td>Software Development</td>
+            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>NTS</td>
+            <td>Netsol</td>
+            <td>Software Development</td>
+            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>NTS</td>
+            <td>Netsol</td>
+            <td>Software Development</td>
+            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>NTS</td>
+            <td>Netsol</td>
+            <td>Software Development</td>
+            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>NTS</td>
+            <td>Netsol</td>
+            <td>Software Development</td>
+            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+        </tr>
+    </tbody>
+</table>
