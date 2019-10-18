@@ -229,14 +229,18 @@ class Controller {
     }
 
     function throw_json($output,$stt=null,$forward=null){
-        if(!is_array($output) || !is_object($output))
-            $output = [ $output ];
+
+        if(is_array($output) || is_object($output)){
+            $op = $output;
+        } else {
+            $op = [ 'status' => 1, 'response' => $output];
+        }
 
         if($stt !== null)
-            $output['status'] = $stt;
+            $op['status'] = $stt;
 
         header('Content-Type: application/json');
-        echo json_encode($output);
+        echo json_encode($op);
         exit;
     }
 

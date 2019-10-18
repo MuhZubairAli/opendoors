@@ -19,7 +19,7 @@ class Main extends Controller {
                 'js' => [
                     'hoverIntent',
                     'superfish.min',
-                    // 'sticky',
+                    'sticky',
                     // 'morphext',
                     'wow',
                     'easing'

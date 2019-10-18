@@ -6,7 +6,7 @@
 
                 <div class="col-md-12">
                     <div class="footer-img text-center">
-                        <img src="<?php $this->url('footer-logo.png','img',true) ?>" height="120" width="auto">
+                        <img src="<?= $this->url('footer-logo.png','img') ?>" height="120" width="auto">
                     </div>
         
                     <ul class="social-media-links">

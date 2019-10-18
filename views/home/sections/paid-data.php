@@ -11,7 +11,7 @@ Paid Data Section
                 <div class="item">
                     <a href="" class="grouped-link">
                     <em>Financial data as per requirements</em>
-                    <img src="<?php $this->url('pc1.png','img',true) ?>" width="100%" height="auto" alt="">
+                    <img src="<?= $this->url('pc1.png','img',true) ?>" width="100%" height="auto" alt="">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     </a>
                     <a class="link" href="">Learn more</a>
@@ -23,7 +23,7 @@ Paid Data Section
                 <div class="item">
                     <a href="" class="grouped-link">
                     <em>Share prices data</em>
-                    <img src="<?php $this->url('pc2.png','img',true) ?>" width="100%" height="auto" alt="">
+                    <img src="<?= $this->url('pc2.png','img',true) ?>" width="100%" height="auto" alt="">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     </a>
                     <a class="link" href="">Learn more</a>
@@ -35,7 +35,7 @@ Paid Data Section
                 <div class="item">
                     <a href="" class="grouped-link">
                     <em>Ownership structure data</em>
-                    <img src="<?php $this->url('pc3.png','img',true) ?>" width="100%" height="auto" alt="">
+                    <img src="<?= $this->url('pc3.png','img',true) ?>" width="100%" height="auto" alt="">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     </a>
                     <a class="link" href="">Learn more</a>
@@ -47,7 +47,7 @@ Paid Data Section
                 <div class="item">
                     <a href="" class="grouped-link">
                     <em>CEO compensation data</em>
-                    <img src="<?php $this->url('pc4.png','img',true) ?>" width="100%" height="auto" alt="">
+                    <img src="<?= $this->url('pc4.png','img',true) ?>" width="100%" height="auto" alt="">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     </a>
                     <a class="link" href="">Learn more</a>

@@ -11,7 +11,7 @@ Paid Data Section
             <table class="table table-bordered item">
                     <tr>
                         <td>
-                            <img src="<?php $this->url('strategic.png','img',true) ?>" width="100%" height="auto" alt="">
+                            <img src="<?= $this->url('strategic.png','img',true) ?>" width="100%" height="auto" alt="">
                         </td>
                         <td>
                             <h4>Strategic Financial Management</h4>
@@ -28,7 +28,7 @@ Paid Data Section
             <table class="table table-bordered item">
                     <tr>
                         <td>
-                            <img src="<?php $this->url('financial.png','img',true) ?>" width="100%" height="auto" alt="">
+                            <img src="<?= $this->url('financial.png','img',true) ?>" width="100%" height="auto" alt="">
                         </td>
                         <td>
                             <h4>Financial Markets and Institutions </h4>
@@ -45,7 +45,7 @@ Paid Data Section
             <table class="table table-bordered item">
                     <tr>
                         <td>
-                            <img src="<?php $this->url('research.png','img',true) ?>" width="100%" height="auto" alt="">
+                            <img src="<?= $this->url('research.png','img',true) ?>" width="100%" height="auto" alt="">
                         </td>
                         <td>
                             <h4>Data and Research Help</h4>
@@ -62,7 +62,7 @@ Paid Data Section
                 <table class="table table-bordered item">
                     <tr>
                         <td>
-                            <img src="<?php $this->url('invest.png','img',true) ?>" width="100%" height="auto" alt="">
+                            <img src="<?= $this->url('invest.png','img',true) ?>" width="100%" height="auto" alt="">
                         </td>
                         <td>
                             <h4>Investment Analysis and Portfolio Management</h4>

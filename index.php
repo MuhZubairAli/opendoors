@@ -80,7 +80,7 @@ if(method_exists($controllerObj,$action)) {
         $params = [];
     $result = call_user_func_array(array($controllerObj,$action),$params);
     if(!empty($result)) {
-        if(is_array($result))
+        if(is_array($result) || is_object($result))
             $controllerObj->throw_json($result);
         else
             echo $result;

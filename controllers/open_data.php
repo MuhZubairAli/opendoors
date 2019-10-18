@@ -33,13 +33,13 @@ class open_data extends Main {
         $this->load_view('layout', $page_data);
     }
 
-    public function company($company_name,$type){
+    public function company($company_name='',$type=''){
         $page_data = array(
             'page_title' => 'Open Doors For All',
             'company' => $company_name,
             'type' => $type
         );
-
+        $this->plugin->add('stats');
         $this->load_view('layout', $page_data);
     }
 

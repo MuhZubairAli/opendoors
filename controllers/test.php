@@ -8,7 +8,7 @@ class test extends Main {
     }
 
     function index(){
-        var_dump(stristr('paid-data/companies','paid-data'));
+        $name = "VILNIAUS_MIESTO_UNIVERSITETINĖ_LIGONINĖ (1).docx";
+        echo substr($name,strrpos($name,'.'));
     }
-
 }

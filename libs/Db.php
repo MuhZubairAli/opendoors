@@ -108,6 +108,62 @@ class Db {
             );
     }
 
+    
+    function count($table,$params=null){
+        
+        if(is_array($table)) {
+            $params = $table;
+
+            if(!isset($params['table'])){
+                return $this->response([
+                        "status" => 0,
+                        "errmsg" => __CLASS__."|".__FUNCTION__."]: - 0 - Required parameter 'table' is not provided." ]
+                );
+            }
+            $tbl = $params['table'];
+        }else
+            $tbl = $table;
+
+        if(isset($params['table']))
+            unset($params['table']);
+
+        if(isset($params['where'])) {
+            if(is_array($params['where'])){
+                $whereClause = '';
+                foreach ($params['where'] as $key => $value){
+                    $whereClause = trim($this->con->real_escape_string($key))."'".$this->con->real_escape_string($value)."' ";
+                }
+                $whereClause = trim($whereClause,' ');
+            }else
+                $whereClause = $this->con->real_escape_string($params['where']);
+            unset($params['where']);
+        }
+
+        $sql = "SELECT count(*) as `count` FROM `".$tbl."`";
+        if(isset($whereClause))
+            $sql .= " WHERE {$whereClause}";
+
+        if($query = $this->con->query($sql)){
+            if($query->num_rows) {
+                return $this->response([
+                        "status" => 1,
+                        "result" => $query->fetch_assoc() ]
+                );
+            }else{
+                return $this->response([
+                    "status" => 0,
+                    "errmsg" => __CLASS__."|".__FUNCTION__."]: - No row selected against specified criteria" ],
+                    $sql
+                );
+            }
+        } else
+            return $this->response([
+                "status" => 0,
+                "errmsg" => __CLASS__."|".__FUNCTION__."]: - ".$this->con->errno." - ".$this->con->error ] //." | ".$sql
+                , $sql
+            );
+    }
+
     public function &getConnection()
     {
         return $this->con;
