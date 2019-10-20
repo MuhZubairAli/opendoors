@@ -35,8 +35,8 @@ class stats extends Controller {
             ));
 
         }else if($filters !== null){
-            $wc = str_replace('_',' AND ',$filters);
-            $wc = str_replace('><','=',$wc);
+            $wc = str_replace('><','=',$filters);
+            $wc = str_replace('_',' AND ', $wc);
             return $this->db->count(array(
                 'table' =>  $this->tableMasks[$table],
                 'where' => $wc

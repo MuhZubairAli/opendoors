@@ -1,4 +1,16 @@
 <h1 class="title">List of Companies</h1>
+
+<div class="tertiary-menu">
+    <ul>
+        <li><a href="#" class="link">Sample Link</a></li>
+        <li><a href="#" class="link">Sample Link</a></li>
+        <li><a href="#" class="link">Sample Link</a></li>
+        <li><a href="#" class="link">Sample Link</a></li>
+        <li><a href="#" class="link">Sample Link</a></li>
+        <li><a href="#" class="link">Sample Link</a></li>
+    </ul>
+</div>
+
 <p class="contents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 <p class="contents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 <p class="contents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>

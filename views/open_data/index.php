@@ -6,3 +6,5 @@
         'hero_action_link_href' => '#',
         'hero_action_link_title' => 'Learn more about open data'
     ));
+
+    $this->load_partial('under-construction');

@@ -1,5 +1,63 @@
 /* font-family: 'Lato', sans-serif; */
 
+.under-construction.section {
+  position: relative;
+  display: block;
+  height: auto;
+  padding: 50px 0 0 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  background: #f5ebb4;
+  /* margin: 10px 10px; */
+}
+.under-construction.section img.worker {
+  max-height: 450px;
+  width: auto;
+  text-align: right;
+}
+
+.under-construction.section .bottom {
+  height: 5%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: url(/assets/imgs/bottom.jpg);
+  background-repeat: repeat-x;
+}
+.under-construction.section .container {
+  max-width: 90%;
+}
+.under-construction.section .container h1 {
+  font-size: 4em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  padding-bottom: 20px;
+  color: #000;
+  border-bottom: 5px solid #000;
+  margin-bottom: 30px;
+}
+
+.under-construction.section .container .message {
+  margin: 100px auto;
+}
+
+@media (max-width: 512px) {
+  
+  .under-construction.section .container h1 {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 420px) {
+  
+  .under-construction.section .container h1 {
+    font-size: 1.8em;
+  }
+}
+
+
+
 /*--------------------------------------------------------------
 # Important Fixures
 --------------------------------------------------------------*/
@@ -180,7 +238,35 @@ ul#sidebar-left li:hover a, ul#sidebar-left li.active a{
 }
 
 /*--------------------------------------*/
+/*---------- Tertiary Menu ------------*/
+.tertiary-menu {
+  min-width: 300px;
+  width: 400px;
+  max-width: 100%;
+  background: #f3f0ee;
+  padding: 10px 25px;
+  float: right;
+  box-sizing: border-box;
+  margin: 0 0 15px 20px;
+  border: 1px solid #ccc;
+}
 
+.tertiary-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.tertiary-menu ul li a{
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px dashed #aaa;
+  font-weight: 700;
+}
+
+.tertiary-menu ul li:last-of-type a {
+  border: none;
+}
+/*-----------------------------------------*/
 
 @media (max-width: 768px) {
   .back-to-top {
